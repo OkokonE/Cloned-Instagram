@@ -14,6 +14,7 @@
 .column{
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 .navbar{
     margin: 0;
@@ -66,7 +67,27 @@
     color: black;
 }
 
-
+.topside{
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.topside img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid red;
+}
+.topsides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* .Dmain{
     display: flex;
     flex-direction: row;
