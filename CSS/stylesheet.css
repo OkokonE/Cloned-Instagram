@@ -177,7 +177,7 @@
 
 /* Story wrapper area */
 .storiesWrapper{
-    background-color: yellow;
+    background-color: white;
     width: 400px;
     padding: 10px;
 }
@@ -196,6 +196,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 .username a{
     text-decoration: none;
@@ -213,4 +214,56 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+}
+.stories1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.stories1 a{
+    text-decoration: none;
+}
+.userpica1{
+    margin-right: 10px;
+}
+.userpica1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.username1{
+    margin-right: 150px;
+}
+.username1 a{
+    text-decoration: none;
+    color: black;
+}
+.username1 p{
+    color: #8e8e8e;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 10px;
+    gap: 5px;
+    
+}
+.bottom a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 15px;
+}
+.lang{
+    color: #8e8e8e;
+    font-size: 15px;
+    padding-left: 8px;
+}
+.final{
+    color: #8e8e8e;
+    font-size: 15px;
+    padding-left: 8px;
+    margin-top: 30px;
 }
